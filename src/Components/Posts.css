@@ -1,0 +1,134 @@
+
+.video-container{
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+.video-container::-webkit-scrollbar {
+    display: none;
+}
+
+.videos{
+    position: relative;
+    width: 32vw;
+}
+
+.fa{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+}
+
+.fa h4{
+    margin: 0;
+    color: white;
+    margin-left: 25%;
+}
+
+.icon-styling{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.like{
+    cursor: pointer;
+    color: #e74c3c;
+}
+
+.unlike{
+    cursor: pointer;
+    color: white;
+}
+
+.chat-styling{
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    color: white;
+}
+
+.modal-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.video-modal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-modal video{
+    height: 88vh;
+}
+
+.modal-video{
+    height: 100%;
+    width: 100%;
+}
+
+.modal-video video{
+    height: 84vh;
+}
+
+.comment-modal{
+    width: 50%;
+    height: 100%;
+}
+
+.unlike2{
+    color: black;
+    cursor: pointer;
+}
+
+.card1{
+    height: 70vh;
+}
+
+@media only screen and (max-width:620px){
+    .videos{
+        width: 85vw;
+    }
+
+    .modal-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-modal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-modal video{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .comment-modal{
+        margin-top: 2rem;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .card1{
+        height: 100vh;
+        overflow: scroll;
+    }
+}
