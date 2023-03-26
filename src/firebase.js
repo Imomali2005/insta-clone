@@ -11,13 +11,12 @@ import 'firebase/compat/firestore'
 // Your web app's Firebase configuration
 // we get all this sinformation when we create any new project and use firebase as a backend service
 const firebaseConfig = {
-  apiKey: "AIzaSyD6RMq9RPdMtPXybv4_iSgw_HTJ07qTq50",
-  authDomain: "instagram-9e05f.firebaseapp.com",
-  projectId: "instagram-9e05f",
-  storageBucket: "instagram-9e05f.appspot.com",
-  messagingSenderId: "896444469369",
-  appId: "1:896444469369:web:9b1cd574ec0afac7bb04a8",
-  measurementId: "G-G7RSH4TD69"
+    apiKey: "AIzaSyDC7DrXkWzzvU5jmG4CWzpliHKivZDvclw",
+    authDomain: "reels-3aa5c.firebaseapp.com",
+    projectId: "reels-3aa5c",
+    storageBucket: "reels-3aa5c.appspot.com",
+    messagingSenderId: "367213807830",
+    appId: "1:367213807830:web:3eeb39f56db6a58351e177"
 };
 
 // Initialize Firebase
